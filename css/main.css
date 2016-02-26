@@ -16,6 +16,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 .brush {
   width: 130px;
   left: 350px;
