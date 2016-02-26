@@ -1,0 +1,50 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #efc7cd;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+.brush {
+  width: 130px;
+  left: 350px;
+  bottom: 280px;
+}
+.needle{
+  width: 130px;
+  bottom: 680px;
+  left: 220px;
+}
+
+.jungle {
+  position: relative;
+}
+
+.needle, .fish, .brush, .scoop {
+  position: absolute;
+}
+
+.dog{
+  height: 400px;
+}
+
+.fish{
+  bottom: 423px;
+  left: 410px;
+}
+
+.scoop {
+  left: 330px;
+  bottom: 40px;
+}
