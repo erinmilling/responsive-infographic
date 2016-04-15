@@ -19,18 +19,10 @@ html {
 
 .brush {
   width: 130px;
-  left: 350px;
-  bottom: 280px;
 }
 
 .needle {
   width: 130px;
-  bottom: 680px;
-  left: 220px;
-}
-
-.jungle {
-  position: relative;
 }
 
 .needle, .fish, .brush, .scoop {
@@ -42,13 +34,11 @@ html {
 }
 
 .fish {
-  bottom: 423px;
-  left: 410px;
+  width: 130px;
 }
 
 .scoop {
-  left: 330px;
-  bottom: 40px;
+  width: 130px;
 }
 
 .states {
