@@ -10,41 +10,93 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background-color: #efc7cd;
+
+  background-color: #e7e7d3;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.brush {
-  width: 130px;
+svg {
+  display: block;
+  width: 100%;
 }
 
-.needle {
-  width: 130px;
+.title {
+  padding: 1em;
 }
 
-.needle, .fish, .brush, .scoop, .mouse {
-  position: absolute;
+h2 {
+  color: #607332;
+  padding-top: 3em;
 }
 
-.dog {
-  height: 400px;
+.growth-one svg {
+  width: 1.5em;
+  margin: 0 auto;
+  display: block;
 }
 
-.mouse {
-  width: 100px;
+.growth-one p {
+  text-align: center;
 }
 
-.fish {
-  width: 130px;
+.growth-two svg {
+  width: 2em;
+  margin: 0 auto;
+  display: block;
 }
 
-.scoop {
-  width: 130px;
+.growth-two p {
+  text-align: center;
 }
 
-.states {
-  margin-left: 0;
+.growth-three svg {
+  width: 3em;
+  margin: 0 auto;
+  display: block;
+}
+
+.growth-three p {
+  text-align: center;
+}
+
+.growth-four svg {
+  width: 3em;
+  margin: 0 auto;
+  display: block;
+}
+
+.growth-four p {
+  text-align: center;
+}
+
+.growth-five svg {
+  width: 4em;
+  margin: 0 auto;
+  display: block;
+}
+
+.growth-five p {
+  text-align: center;
+}
+
+.fruit svg {
+  width: 4em;
+  margin: 0 auto;
+  display: block;
+}
+
+.fruit p {
+  text-align: center;
+}
+
+.green {
+  color: #a8bf50;
+}
+
+.chart svg {
+  margin: 0 auto;
 }
