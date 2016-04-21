@@ -25,12 +25,16 @@ html {
   width: 130px;
 }
 
-.needle, .fish, .brush, .scoop {
+.needle, .fish, .brush, .scoop, .mouse {
   position: absolute;
 }
 
 .dog {
   height: 400px;
+}
+
+.mouse {
+  width: 100px;
 }
 
 .fish {
