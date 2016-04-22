@@ -26,6 +26,9 @@ svg {
 
 .title {
   padding: 1em;
+}
+
+.thetitle {
   transition: 1s ease;
   opacity: 0;
 }
@@ -114,4 +117,20 @@ h2 {
 
 .js-seed-animate, .js-seedling-animate, .js-sprout-animate, .js-plant-animate, .js-bigplant-animate {
   opacity: 1;
+  animation: seed-jiggle 250ms linear;
+}
+
+@keyframes seed-jiggle {
+  0% {
+    transform: rotate(0);
+  }
+  33% {
+    transform: rotate(15deg);
+  }
+  66% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
