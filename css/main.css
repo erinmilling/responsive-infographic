@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  background-color: #e7e7d3;
+  background-color: #BAE4F9;
   font-family: sans-serif;
 }
 
@@ -26,10 +26,16 @@ svg {
 
 .title {
   padding: 1em;
+  transition: 1s ease;
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
 }
 
 h2 {
-  color: #607332;
+  color: #257D79;
   padding-top: 3em;
 }
 
@@ -99,4 +105,13 @@ h2 {
 
 .chart svg {
   margin: 0 auto;
+}
+
+.seed, .seedling, .sprout, .plant, .bigplant {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.js-seed-animate, .js-seedling-animate, .js-sprout-animate, .js-plant-animate, .js-bigplant-animate {
+  opacity: 1;
 }
