@@ -31,3 +31,7 @@ $bigplant.waypoint(function() {
 $one.waypoint(function () {
   $one.addClass('js-bounce');
 }, {offset: '50%' });
+
+$two.waypoint(function () {
+  $two.addClass('js-slide');
+}, {offset: '50%' });
