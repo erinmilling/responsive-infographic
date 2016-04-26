@@ -206,3 +206,12 @@ h2 {
   transition: ease-in 1s;
   opacity: 1;
 }
+
+.graph {
+  opacity: 0;
+}
+
+.graph:hover {
+  transition: all ease-in 1s;
+  opacity: 1;
+}
