@@ -132,8 +132,14 @@ h2 {
   }
 }
 
+.one, .two, .three, .four {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
 .js-bounce {
   animation: bounce 1s linear;
+  opacity: 1;
 }
 
 @keyframes bounce {

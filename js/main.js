@@ -3,6 +3,10 @@ var $seedling = $('.seedling');
 var $sprout = $('.sprout');
 var $plant = $('.plant');
 var $bigplant = $('.bigplant');
+var $one = $('.one');
+var $two = $('.two');
+var $three = $('.three');
+var $four = $('.four');
 
 $seed.waypoint(function() {
   $seed.addClass('js-seed-animate');
@@ -22,4 +26,8 @@ $plant.waypoint(function() {
 
 $bigplant.waypoint(function() {
   $bigplant.addClass('js-bigplant-animate');
+}, {offset: '50%' });
+
+$one.waypoint(function () {
+  $one.addClass('js-bounce');
 }, {offset: '50%' });
