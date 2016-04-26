@@ -131,3 +131,12 @@ h2 {
     transform: rotate(0);
   }
 }
+
+.js-bounce {
+  animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+  0% { top: 0; }
+  100% { top: 100px; }
+}
