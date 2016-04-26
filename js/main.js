@@ -23,7 +23,3 @@ $plant.waypoint(function() {
 $bigplant.waypoint(function() {
   $bigplant.addClass('js-bigplant-animate');
 }, {offset: '50%' });
-
-$('.click-title').on('click', function () {
-  $('.thetitle').toggleClass('show');
-});

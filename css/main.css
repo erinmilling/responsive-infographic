@@ -26,15 +26,12 @@ svg {
 
 .title {
   padding: 1em;
+  opacity: 0;
 }
 
-.thetitle {
-  transition: 1s ease;
-  opacity: 0;
-}
-
-.show {
+.title:hover {
   opacity: 1;
+  transition: ease-in 2s;
 }
 
 h2 {
