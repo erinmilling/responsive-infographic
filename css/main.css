@@ -190,3 +190,8 @@ h2 {
     transform: rotate(360deg);
   }
 }
+
+.js-appear {
+  transition: ease-in 1s;
+  opacity: 1;
+}

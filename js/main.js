@@ -39,3 +39,7 @@ $two.waypoint(function () {
 $three.waypoint(function () {
   $three.addClass('js-rotate');
 }, {offset: '50%' });
+
+$four.waypoint(function () {
+  $four.addClass('js-appear');
+}, {offset: '50%' });
