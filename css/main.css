@@ -169,3 +169,24 @@ h2 {
 
   100% { transform: translate( 0px, 0); }
 }
+
+.js-rotate {
+  animation: rotate 1s linear;
+  opacity: 1;
+}
+
+@keyframes rotate {
+
+  0% {
+    transform: rotate(0);
+  }
+  33% {
+    transform: rotate(90deg);
+  }
+  66% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

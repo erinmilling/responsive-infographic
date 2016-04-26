@@ -35,3 +35,7 @@ $one.waypoint(function () {
 $two.waypoint(function () {
   $two.addClass('js-slide');
 }, {offset: '50%' });
+
+$three.waypoint(function () {
+  $three.addClass('js-rotate');
+}, {offset: '50%' });
