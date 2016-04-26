@@ -13,6 +13,7 @@ html {
 
   background-color: #BAE4F9;
   font-family: sans-serif;
+
 }
 
 *, *::before, *::after {
@@ -214,4 +215,15 @@ h2 {
 .graph:hover {
   transition: all ease-in 1s;
   opacity: 1;
+}
+
+.star {
+  left: 0;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  width: 30px;
+  transform-origin: center center;
+  background: url("../images/star.svg") no-repeat center center / contain transparent;
+  animation: pulse 1s infinite alternate;
 }
